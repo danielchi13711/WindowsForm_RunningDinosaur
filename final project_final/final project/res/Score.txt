@@ -1,0 +1,10 @@
+Player	237
+Player	139
+Player	84
+Player	81
+Player	75
+Player	58
+Player	54
+Player	53
+Player	48
+Player	9

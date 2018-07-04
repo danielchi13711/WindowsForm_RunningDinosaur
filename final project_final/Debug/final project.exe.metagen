@@ -1,0 +1,179 @@
+  finalproject.EndingForm.resources - Embedded, ContainedInManifestFile, 
+  finalproject.game.resources - Embedded, ContainedInManifestFile, 
+  finalproject.MyForm.resources - Embedded, ContainedInManifestFile, 
+  finalproject.NotifyForm.resources - Embedded, ContainedInManifestFile, 
+  finalproject.OptionForm.resources - Embedded, ContainedInManifestFile, 
+  finalproject.restartForm.resources - Embedded, ContainedInManifestFile, 
+  finalproject.ScoreForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly final project, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class finalproject.Dinosaur: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Windows.Forms.PictureBox): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetParentPic(PictureBox): PrivateScope, Public, HideBySig
+    RightMoving(): PrivateScope, Public, HideBySig
+    LeftMoving(): PrivateScope, Public, HideBySig
+    Jump(Int32): PrivateScope, Public, HideBySig
+Class finalproject.Character: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Windows.Forms.PictureBox): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 mPoint_x : Public
+    Int32 mPoint_y : Public
+  Methods:
+    GrowingUp(): PrivateScope, Public, HideBySig
+    GrowingDown(): PrivateScope, Public, HideBySig
+    Visiable(): PrivateScope, Public, HideBySig
+    Moving(): PrivateScope, Public, HideBySig
+Class finalproject.NotifyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class finalproject.EndingForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class finalproject.ScoreForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReadFile(): PrivateScope, Public, HideBySig
+    HightLight(Int32): PrivateScope, Public, HideBySig
+Class finalproject.restartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Restart : Public, Static
+    Boolean Submit : Public, Static
+Class finalproject.game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 backGround1X : Public
+    Int32 backGround2X : Public
+    Int32 backGround3X : Public
+    Int32 backGround4X : Public
+    Int32 backGround5X : Public
+    Int32 backGround6X : Public
+    Int32 backGround7X : Public
+    Int32 backGround7Y : Public
+    Int32 backGround8X : Public
+    Int32 backGround8Y : Public
+    Int32 cactus1X : Public
+    Int32 cactus1Y : Public
+    Int32 cactus2X : Public
+    Int32 cactus2Y : Public
+    Int32 cactus3X : Public
+    Int32 cactus3Y : Public
+    Int32 cactus4X : Public
+    Int32 cactus4Y : Public
+    Int32 cactus5X : Public
+    Int32 cactus5Y : Public
+    Int32 cactus6X : Public
+    Int32 cactus6Y : Public
+    Int32 cactus7X : Public
+    Int32 cactus7Y : Public
+    Int32 cactus8X : Public
+    Int32 cactus8Y : Public
+    Int32 cactus9X : Public
+    Int32 cactus9Y : Public
+    Int32 cactus10X : Public
+    Int32 cactus10Y : Public
+    Int32 cactus11X : Public
+    Int32 cactus11Y : Public
+    Int32 cactus12X : Public
+    Int32 cactus12Y : Public
+    Int32 cactus13X : Public
+    Int32 cactus13Y : Public
+    Int32 fuckhorse1X : Public
+    Int32 fuckhorse1Y : Public
+    Int32 fuckhorse2X : Public
+    Int32 fuckhorse2Y : Public
+    Int32 fuckhorse3X : Public
+    Int32 fuckhorse3Y : Public
+    Int32 fuckhorse4X : Public
+    Int32 fuckhorse4Y : Public
+    Int32 fuckhorse5X : Public
+    Int32 fuckhorse5Y : Public
+    Int32 fuckhorse6X : Public
+    Int32 fuckhorse6Y : Public
+    Int32 fuckhorse7X : Public
+    Int32 fuckhorse7Y : Public
+    Int32 fuckhorse8X : Public
+    Int32 fuckhorse8Y : Public
+    Int32 fuckhorse9X : Public
+    Int32 fuckhorse9Y : Public
+    Int32 fuckhorse10X : Public
+    Int32 fuckhorse10Y : Public
+    Int32 fuckhorse11X : Public
+    Int32 fuckhorse11Y : Public
+    Int32 penguin1X : Public
+    Int32 penguin1Y : Public
+    Int32 penguin2X : Public
+    Int32 penguin2Y : Public
+    Int32 penguin3X : Public
+    Int32 penguin3Y : Public
+    Int32 penguin4X : Public
+    Int32 penguin4Y : Public
+    Int32 penguin5X : Public
+    Int32 penguin5Y : Public
+    Int32 penguin6X : Public
+    Int32 penguin6Y : Public
+    Int32 penguin7X : Public
+    Int32 penguin7Y : Public
+    Int32 penguin8X : Public
+    Int32 penguin8Y : Public
+    Int32 penguin9X : Public
+    Int32 penguin9Y : Public
+    Int32 penguin10X : Public
+    Int32 penguin10Y : Public
+    Int32 bird1X : Public
+    Int32 bird1Y : Public
+    Int32 bird2X : Public
+    Int32 bird2Y : Public
+    Int32 bird3X : Public
+    Int32 bird3Y : Public
+    Int32 bird4X : Public
+    Int32 bird4Y : Public
+    Int32 bird5X : Public
+    Int32 bird5Y : Public
+    Int32 bird6X : Public
+    Int32 bird6Y : Public
+    Int32 bird7X : Public
+    Int32 bird7Y : Public
+    Int32 bird8X : Public
+    Int32 bird8Y : Public
+    Int32 bird9X : Public
+    Int32 bird9Y : Public
+    Int32 bird10X : Public
+    Int32 bird10Y : Public
+    System.Windows.Forms.Control stateParent : Public
+    Int32 score : Public, Static
+    Boolean Pass : Public, Static
+  Methods:
+    SetSoundEffect(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    SetImmortal(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+Class finalproject.OptionForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean SaveName : Public
+    Boolean ImmortalOpen : Public, Static
+    Boolean musicOpen : Public, Static
+    Boolean soundeffectOpen : Public, Static
+    System.String playerName : Public, Static
+  Methods:
+    GetPlayerName(): PrivateScope, Public, HideBySig
+Class finalproject.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
